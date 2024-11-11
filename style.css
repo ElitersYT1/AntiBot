@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', 'Sans-Serif';
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgb(22, 22, 22);
+}
+
+.container{
+    margin: 0px 150px;
+}
+
+main{
+    padding-bottom: 100px;
+}
+
+main h1{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: rgb(255,64,129);
+    font-family:sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+main p{
+    display: grid;
+    /* margin-left: 150px; */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.link-card{
+    padding: 20px;
+    border: 1px solid #0091ff;
+    border-radius: 20px;
+    width: 30%;
+    height: 300px;
+}
+
+.links-content div h2{
+    padding-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.links-content div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    padding-bottom: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.link-button{
+    font-family: sans-serif;
+    color: #212121;
+    background-color: rgb(100,255,218);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+.link-button2{
+    font-family: sans-serif;
+    color: #212121;
+    background-color: rgb(248,136,58);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+.link-button:hover{
+    opacity: 0.8;
+}
+
+.link-button2:hover{
+    opacity: 0.8;
+}
+
+.l-buttons{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vip{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.vip h1{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(255,64,129);
+    font-family:sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+.vip-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vip-card{
+    border: 1px solid #0091ff;
+    border-radius: 20px;
+    padding: 50px 60px;
+    display: flex;
+    width: 400px;
+}
+
+.vip-card:first-child{
+    height: 180px;
+    margin-right: 20px;
+}
+
+.vip-card:last-child{
+    width: 700px;
+    height: 180px;
+    padding: 20px 60px;
+}
+
+.vip-card-price{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.vip-card div{
+    margin-right: 165px;
+}
+
+.vip-card div:last-of-type{
+    margin-right: 0;
+}
+
+.vip-card div h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.team{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.team-content{
+    border-bottom: 3px solid #0091ff;
+    padding-bottom: 150px;
+}
+
+.team h1{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(255,64,129);
+    font-family:sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+.team-card{
+    border: 1px solid #0091ff;
+    border-radius: 20px;
+    /* padding: 50px 60px; */
+    display: flex;
+    /* width: 400px;
+    width: 700px; */
+    /* height: 180px; */
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.team-card a{
+    text-decoration: none;
+    color: rgb(100,255,218);
+}
+
+footer{
+    padding-bottom: 100px;
+}
+
+.footer-content p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1240px){
+    .vip-card:first-child{
+        height: 260px;
+    }
+    .vip-card:last-child{
+        width: 500px;
+        height: 260px;
+        padding: 20px 60px;
+    }
+}
+
+@media screen and (max-width:1180px){
+    .vip-content{
+        display: grid;
+    }
+    .vip-card:first-child{
+        height: 170px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin:0 auto;
+    }
+    .vip-card:last-child{
+        height: 170px;
+        width: 100%;
+        margin-top: 50px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1170px){
+    .links-content{
+        display: grid;
+    }
+    .link-card{
+        margin-top: 50px;
+        width: 100%;
+        height: 220px;
+    }
+    .l-buttons{
+        padding-left: 670px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .l-buttons{
+        padding-left: 650px;
+    }
+}
+
+@media screen and (max-width:1075px){
+    .l-buttons{
+        padding-left: 620px;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .l-buttons{
+        padding-left: 600px;
+    }
+    .link-card{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .l-buttons{
+        padding-left: 580px;
+    }
+    .link-card{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:980px){
+    .l-buttons{
+        padding-left: 560px;
+    }
+    .link-card{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .l-buttons{
+        padding-left: 500px;
+    }
+    .link-card{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:890px){
+    .vip-card:last-child{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:880px){
+    .l-buttons{
+        padding-left: 460px;
+    }
+    .link-card{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .l-buttons{
+        padding-left: 400px;
+    }
+    .link-card{
+        height: 240px;
+    }
+    .vip-card:last-child{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .l-buttons{
+        padding-left: 350px;
+    }
+    .link-card{
+        height: 270px;
+    }
+    .container{
+        margin: 0px 100px;
+    }
+}
+
+@media screen and (max-width:690px){
+    .l-buttons{
+        padding-left: 350px;
+    }
+    .link-card{
+        height: 300px;
+    }
+    .container{
+        margin: 0px 50px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .l-buttons{
+        padding-left: 350px;
+    }
+    .link-card{
+        height: 240px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width:530px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 280px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 280px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 340px;
+    }
+}
+
+@media screen and (max-width:410px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 370px;
+    }
+}
+
+@media screen and (max-width:395px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 430px;
+    }
+    .team-card p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 430px;
+    }
+    .team-card p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 480px;
+    }
+}
+
+@media screen and (max-width:340px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 480px;
+        font-size: 15px;
+    }
+    /* .team-card{
+        align-items: center;
+        text-align: center;
+    } */
+    .team-card p{
+        font-size: 13px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:330px){
+    .l-buttons{
+        padding-left: 0px;
+    }
+    .link-card{
+        height: 350px;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+    .vip-card:last-child{
+        height: 480px;
+        font-size: 14px;
+    }
+    .team-card p{
+        font-size: 12px;
+        height: 180px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
